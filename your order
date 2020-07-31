@@ -1,0 +1,25 @@
+//# pick-yourorder
+//source code using decision making statement "swtich"
+#include<stdio.h>
+main()
+{
+	printf(" pick an your favorite:\n1 pizza -36$.\n2 burger-30$. \n3 french fries-20$. \n4 oreo thickshake-40$. ");
+	int order=0;
+	scanf("%d",&order);
+	switch(order)
+	{
+		case 1:
+			printf("your order is pizza -36$");
+		    break ;
+	    case 2:
+		    printf("your order is burger -30$");
+			break ;
+	    case 3:
+		    printf("  your order is frenchfries -20$");
+			break ;
+	    case 4:
+		    printf("your order is  oreo thickshake - 50$");
+		    break;
+		 default: printf("you item is not available!");					
+	}
+}
